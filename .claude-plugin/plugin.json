@@ -1,12 +1,12 @@
 {
-  "name": "claude-code-notify",
+  "name": "claude-code-moo",
   "description": "Cow moo sound notification for permission prompts",
   "version": "1.0.0",
   "author": {
     "name": "iefnaf"
   },
-  "homepage": "https://github.com/iefnaf/claude-code-notify",
-  "repository": "https://github.com/iefnaf/claude-code-notify",
+  "homepage": "https://github.com/iefnaf/claude-code-moo",
+  "repository": "https://github.com/iefnaf/claude-code-moo",
   "license": "MIT",
   "keywords": ["notification", "audio", "cow", "permission", "claude-code"]
 }

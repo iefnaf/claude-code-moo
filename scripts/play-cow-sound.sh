@@ -10,14 +10,9 @@
 set -eo pipefail
 
 # Paths
-# Use CLAUDE_PLUGIN_ROOT if set, otherwise use script directory for manual testing
+# Automatically find audio file relative to script location
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-if [[ -n "${CLAUDE_PLUGIN_ROOT:-}" ]]; then
-    AUDIO_FILE="${CLAUDE_PLUGIN_ROOT}/assets/cow-moo.mp3"
-else
-    # For manual testing, look for audio file relative to script directory
-    AUDIO_FILE="${SCRIPT_DIR}/../assets/cow-moo.mp3"
-fi
+AUDIO_FILE="${SCRIPT_DIR}/../assets/cow-moo.mp3"
 
 # Play audio based on platform
 play_sound() {

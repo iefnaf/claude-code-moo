@@ -32,7 +32,7 @@ Before installing, you need to add the cow sound audio file:
 Inside Claude Code, run:
 
 ```
-/plugin marketplace add fanfei/claude-code-moo
+/plugin marketplace add iefnaf/claude-code-moo
 ```
 
 ### Step 2: Install the plugin
