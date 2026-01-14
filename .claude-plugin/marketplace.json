@@ -1,0 +1,19 @@
+{
+  "name": "claude-code-moo",
+  "owner": {
+    "name": "iefnaf"
+  },
+  "metadata": {
+    "description": "Cow moo sound notification for permission prompts",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "claude-code-moo",
+      "source": "./",
+      "description": "Plays a cow moo sound whenever Claude Code needs your permission (Bash, file access, etc.). Never miss an authorization request again!",
+      "category": "notifications",
+      "tags": ["notification", "audio", "cow", "permission", "alerts"]
+    }
+  ]
+}

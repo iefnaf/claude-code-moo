@@ -1,0 +1,17 @@
+{
+  "description": "Cow sound notification for permission requests",
+  "hooks": {
+    "PermissionRequest": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${CLAUDE_PLUGIN_ROOT}/scripts/play-cow-sound.sh",
+            "timeout": 5
+          }
+        ]
+      }
+    ]
+  }
+}

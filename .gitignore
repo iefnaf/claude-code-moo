@@ -1,0 +1,59 @@
+# Dependencies
+node_modules/
+
+# Build artifacts
+dist/
+build/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# IDE
+.claude
+.idea/
+*.swp
+*.swo
+*.swn
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Testing
+coverage/
+.nyc_output/
+
+# Temporary files
+*.tmp
+.cache/
+tmp/
+
+# Audio file (if too large for git)
+# Uncomment if you want to exclude the audio file from git
+# assets/cow-moo.mp3
+# assets/*.mp3
+# assets/*.wav
+# assets/*.m4a

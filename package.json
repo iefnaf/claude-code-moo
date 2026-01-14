@@ -1,0 +1,25 @@
+{
+  "name": "claude-code-moo",
+  "version": "1.0.0",
+  "description": "Plays a cow moo sound when Claude Code requires user authorization",
+  "type": "module",
+  "author": {
+    "name": "fanfei"
+  },
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "notification",
+    "audio",
+    "permission",
+    "cow"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iefnaf/claude-code-moo"
+  },
+  "homepage": "https://github.com/iefnaf/claude-code-notify#readme"
+}
