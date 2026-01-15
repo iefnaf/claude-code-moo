@@ -244,7 +244,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🙏 Credits
 
 - **Cow sound effect**: [Pixabay Sound Effects](https://pixabay.com/sound-effects/) (royalty-free)
-- **Built with**: [Claude Code's Hook System](https://code.anthropic.com/docs/en/hooks)
+- **Built with**: [Claude Code's Hook System](https://code.claude.com/docs/en/hooks)
 - **Inspired by**: The need to never miss a permission prompt again
 
 ---
